@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #7bdaf3;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.notes {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+}
+.notes .tools {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  background-color: #9ec862;
+}
+.notes .tools button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.notes .text {
+  padding-left: 5px;
+  padding-top: 1rem;
+  width: 100%;
+  outline: none;
+  height: 265px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: none;
+}
+
+.notes .main {
+  display: block;
+  padding-left: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226, 226, 226);
+}
+
+.notes .hidden {
+  display: none;
+}
+
+.add {
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px 10px;
+  background-color: #9ec862;
+  border-radius: 5px;
+  border: none;
+  float: right;
+}
+
+.add:hover {
+  color: #fff;
+  border-radius: 5px;
+  background-color: #6faf0e;
+}
+
+.notes .tools button:hover {
+  color: rgb(50, 82, 83);
+}
